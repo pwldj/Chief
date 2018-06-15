@@ -9,16 +9,10 @@
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="332dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="495dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,8 +23,8 @@
                 android:id="@+id/recycle_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scrollbars="vertical"
-                android:background="@android:color/darker_gray"/>
+                android:background="@android:color/darker_gray"
+                android:scrollbars="vertical" />
 
         </LinearLayout>
     </ScrollView>
